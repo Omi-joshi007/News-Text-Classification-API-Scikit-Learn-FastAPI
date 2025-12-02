@@ -44,7 +44,6 @@ The API provides a /predict endpoint that accepts raw text and returns a predict
 | Notebook           | Jupyter / VS Code |
 
 📂 Project Structure
-
 .
 ├── model.ipynb                 # Model training & evaluation notebook
 ├── app.py                      # FastAPI app exposing /predict endpoint
