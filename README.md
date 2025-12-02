@@ -12,9 +12,9 @@
        * Uses 20 Newsgroups dataset (two categories for simplicity).
        * Converts text to numerical features using TF–IDF vectorisation.
        *  Trains and compares:
-         * Linear Support Vector Classifier (LinearSVC)
-         * Logistic Regression
-         * Multinomial Naive Bayes
+           * Linear Support Vector Classifier (LinearSVC)
+           * Logistic Regression
+           * Multinomial Naive Bayes
        * Selects the best model based on accuracy & F1-score.
        * Wraps the best model + TF-IDF into a Scikit-Learn Pipeline.
        * Saves the final trained Pipeline using joblib.
