@@ -1,6 +1,5 @@
 # 🚀 News Text Classification API — Scikit-Learn + FastAPI
-
-    * A complete end-to-end NLP workflow: model training → evaluation → deployment.
+   * A complete end-to-end NLP workflow: model training → evaluation → deployment.
 
 ## 📌 Project Overview
 
@@ -53,8 +52,8 @@
 
 ## 📥 Installation
 
-  * 1. Clone the repository
-  * 2. Install dependencies
+   * Clone the repository
+   * Install dependencies
        * pip install -r requirements.txt
 
 ## 🧠 Training the Model
