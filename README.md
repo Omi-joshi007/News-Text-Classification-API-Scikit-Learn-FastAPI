@@ -1,6 +1,6 @@
-🚀 News Text Classification API — Scikit-Learn + FastAPI
+-🚀 News Text Classification API — Scikit-Learn + FastAPI
 
-A complete end-to-end NLP workflow: model training → evaluation → deployment.
+    -A complete end-to-end NLP workflow: model training → evaluation → deployment.
 
 📌 Project Overview
 
