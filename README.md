@@ -1,7 +1,9 @@
 🚀 News Text Classification API — Scikit-Learn + FastAPI
+
 A complete end-to-end NLP workflow: model training → evaluation → deployment.
 
 📌 Project Overview
+
 This project demonstrates an end-to-end Natural Language Processing (NLP) workflow, starting from dataset preparation, TF-IDF vectorisation, model experimentation, and evaluation—followed by deployment of the trained model through a FastAPI microservice.
 The API provides a /predict endpoint that accepts raw text and returns a predicted news category (e.g., sci.space or rec.sport.baseball).
 
