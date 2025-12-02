@@ -8,6 +8,7 @@ This project demonstrates an end-to-end Natural Language Processing (NLP) workfl
 The API provides a /predict endpoint that accepts raw text and returns a predicted news category (e.g., sci.space or rec.sport.baseball).
 
 🎯 Key Features
+
 🔹 Machine Learning (Model Training)
     Uses 20 Newsgroups dataset (two categories for simplicity).
     Converts text to numerical features using TF–IDF vectorisation.
@@ -43,6 +44,7 @@ The API provides a /predict endpoint that accepts raw text and returns a predict
 | Notebook           | Jupyter / VS Code |
 
 📂 Project Structure
+
 .
 ├── model.ipynb                 # Model training & evaluation notebook
 ├── app.py                      # FastAPI app exposing /predict endpoint
@@ -51,6 +53,7 @@ The API provides a /predict endpoint that accepts raw text and returns a predict
 └── README.md                   # Project documentation
 
 📥 Installation
+
   1. Clone the repository
     git clone https://github.com/your-username/news-text-classification-api.git
     cd news-text-classification-api
@@ -59,8 +62,9 @@ The API provides a /predict endpoint that accepts raw text and returns a predict
     pip install -r requirements.txt
 
 🧠 Training the Model
-  Open the Jupyter Notebook:
-    jupyter notebook model.ipynb
+
+  Open the Jupyter Notebook: jupyter notebook model.ipynb
+
 
 Run all cells to:
   Load and inspect the dataset
@@ -69,10 +73,12 @@ Run all cells to:
   Build the final ML pipeline
   Save the trained model using joblib
 
+
 The trained model is stored as:
   news_text_classifier.joblib
 
 🚀 Running the FastAPI Service
+
 Start the API server using:
   python -m uvicorn app:app --reload
 
@@ -80,12 +86,14 @@ Open:
   Swagger UI: http://127.0.0.1:8000/docs
 
 📝 Example API Request (via Swagger UI)
+
 Request Body:
 {
   "text": "NASA discovered a new exoplanet today."
 }
 
 Sample Response:
+
 {
   "predicted_label": 1,
   "predicted_category": "sci.space"
@@ -96,9 +104,11 @@ Sample Response:
 <img width="1788" height="866" alt="image" src="https://github.com/user-attachments/assets/5f06935b-3403-4abf-9037-6f7f88c8b721" />
 
 📌 Future Enhancements
+
   Include more categories from the 20 Newsgroups dataset
   Integrate transformer-based models (e.g., BERT, DistilBERT)
 
 👤 Author
+
 Omkar Joshi
 📧 Email: omkar.joshi.nz@gmail.com
